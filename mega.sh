@@ -91,6 +91,6 @@ sudo apt-get install python3-pip
 git clone https://github.com/maurosoria/dirsearch.git
 
 mv final_subs.txt dirsearch
-
+cd dirsearch
 clear
 python3 dirsearch.py -e php,asp,aspx,jsp,py,txt,conf,config,bak,backup,swp,old,db,sqlasp,aspx,aspx~,asp~,py,py~,rb,rb~,php,php~,bak,bkp,cache,cgi,conf,csv,html,inc,jar,js,json,jsp,jsp~,lock,log,rar,old,sql,sql.gz,sql.zip,sql.tar.gz,sql~,swp,swp~,tar,tar.bz2,tar.gz,txt,wadl,zip -l final_subs.txt -i 200
