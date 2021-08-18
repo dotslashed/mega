@@ -33,6 +33,11 @@ GO111MODULE=on go get -u -v github.com/lc/gau
 
 go get -u github.com/tomnomnom/assetfinder
 
+go get github.com/tomnomnom/waybackurls
+
+go get -u github.com/tomnomnom/qsreplace
+
+go get -u github.com/ffuf/ffuf
 
 echo 'export GOROOT=/usr/local/go' >> ~/.bashrc
 
