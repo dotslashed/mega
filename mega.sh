@@ -31,6 +31,8 @@ GO111MODULE=on go get -v github.com/projectdiscovery/httpx/cmd/httpx
 
 GO111MODULE=on go get -u -v github.com/lc/gau
 
+GO111MODULE=on go get -u -v github.com/bp0lr/gauplus
+
 go get -u github.com/tomnomnom/assetfinder
 
 go get github.com/tomnomnom/waybackurls
